@@ -1,0 +1,6 @@
+framework module Pods_DirectionsToIndianCities {
+  umbrella header "Pods-DirectionsToIndianCities-umbrella.h"
+
+  export *
+  module * { export * }
+}

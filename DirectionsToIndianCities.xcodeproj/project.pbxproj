@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30F2DB04204983ED0079AF40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F2DB03204983ED0079AF40 /* AppDelegate.swift */; };
+		30F2DB09204983ED0079AF40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F2DB07204983ED0079AF40 /* Main.storyboard */; };
+		30F2DB0B204983ED0079AF40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30F2DB0A204983ED0079AF40 /* Assets.xcassets */; };
+		30F2DB0E204983ED0079AF40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F2DB0C204983ED0079AF40 /* LaunchScreen.storyboard */; };
+		30F2DB19204983ED0079AF40 /* DirectionsToIndianCitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F2DB18204983ED0079AF40 /* DirectionsToIndianCitiesTests.swift */; };
+		30F2DB24204983ED0079AF40 /* DirectionsToIndianCitiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F2DB23204983ED0079AF40 /* DirectionsToIndianCitiesUITests.swift */; };
+		30F2DB32204986350079AF40 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30F2DB31204986340079AF40 /* GoogleService-Info.plist */; };
+		30F2DB35204AF3390079AF40 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F2DB34204AF3390079AF40 /* LoginViewController.swift */; };
+		30F2DB37204AFD710079AF40 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F2DB36204AFD710079AF40 /* RegisterViewController.swift */; };
+		30F2DB3A204B13490079AF40 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F2DB39204B13490079AF40 /* User.swift */; };
+		30F2DB3C204B3BFA0079AF40 /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F2DB3B204B3BFA0079AF40 /* CitiesViewController.swift */; };
+		30F2DB3E204B3FEB0079AF40 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F2DB3D204B3FEB0079AF40 /* Place.swift */; };
+		30F2DB40204BB7A10079AF40 /* CityDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F2DB3F204BB7A10079AF40 /* CityDetailsViewController.swift */; };
+		30F2DB42204BF0190079AF40 /* DirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F2DB41204BF0190079AF40 /* DirectionsViewController.swift */; };
+		30F2DB45204BF59B0079AF40 /* HelperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F2DB44204BF59B0079AF40 /* HelperClass.swift */; };
+		30F2DB48204BF9680079AF40 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F2DB47204BF9680079AF40 /* Constants.swift */; };
+		30F2DB4A204C00690079AF40 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F2DB49204C00690079AF40 /* CoreLocation.framework */; };
+		5EA1DE7B905DF9A59C63628C /* Pods_DirectionsToIndianCities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA25C5893E6C58E6AF4DEE56 /* Pods_DirectionsToIndianCities.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30F2DB15204983ED0079AF40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30F2DAF8204983ED0079AF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30F2DAFF204983ED0079AF40;
+			remoteInfo = DirectionsToIndianCities;
+		};
+		30F2DB20204983ED0079AF40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30F2DAF8204983ED0079AF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30F2DAFF204983ED0079AF40;
+			remoteInfo = DirectionsToIndianCities;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30F2DB00204983ED0079AF40 /* DirectionsToIndianCities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DirectionsToIndianCities.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F2DB03204983ED0079AF40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30F2DB08204983ED0079AF40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30F2DB0A204983ED0079AF40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30F2DB0D204983ED0079AF40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30F2DB0F204983ED0079AF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F2DB14204983ED0079AF40 /* DirectionsToIndianCitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectionsToIndianCitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F2DB18204983ED0079AF40 /* DirectionsToIndianCitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsToIndianCitiesTests.swift; sourceTree = "<group>"; };
+		30F2DB1A204983ED0079AF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F2DB1F204983ED0079AF40 /* DirectionsToIndianCitiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectionsToIndianCitiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F2DB23204983ED0079AF40 /* DirectionsToIndianCitiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsToIndianCitiesUITests.swift; sourceTree = "<group>"; };
+		30F2DB25204983ED0079AF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F2DB31204986340079AF40 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		30F2DB34204AF3390079AF40 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		30F2DB36204AFD710079AF40 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		30F2DB39204B13490079AF40 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		30F2DB3B204B3BFA0079AF40 /* CitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewController.swift; sourceTree = "<group>"; };
+		30F2DB3D204B3FEB0079AF40 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		30F2DB3F204BB7A10079AF40 /* CityDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailsViewController.swift; sourceTree = "<group>"; };
+		30F2DB41204BF0190079AF40 /* DirectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsViewController.swift; sourceTree = "<group>"; };
+		30F2DB44204BF59B0079AF40 /* HelperClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperClass.swift; sourceTree = "<group>"; };
+		30F2DB47204BF9680079AF40 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		30F2DB49204C00690079AF40 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		40C2AC7F2EC153B389E587CC /* Pods-DirectionsToIndianCities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectionsToIndianCities.release.xcconfig"; path = "Pods/Target Support Files/Pods-DirectionsToIndianCities/Pods-DirectionsToIndianCities.release.xcconfig"; sourceTree = "<group>"; };
+		EC953D14BC120C2B29A96069 /* Pods-DirectionsToIndianCities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectionsToIndianCities.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DirectionsToIndianCities/Pods-DirectionsToIndianCities.debug.xcconfig"; sourceTree = "<group>"; };
+		FA25C5893E6C58E6AF4DEE56 /* Pods_DirectionsToIndianCities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DirectionsToIndianCities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30F2DAFD204983ED0079AF40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F2DB4A204C00690079AF40 /* CoreLocation.framework in Frameworks */,
+				5EA1DE7B905DF9A59C63628C /* Pods_DirectionsToIndianCities.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F2DB11204983ED0079AF40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F2DB1C204983ED0079AF40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30F2DAF7204983ED0079AF40 = {
+			isa = PBXGroup;
+			children = (
+				30F2DB02204983ED0079AF40 /* DirectionsToIndianCities */,
+				30F2DB17204983ED0079AF40 /* DirectionsToIndianCitiesTests */,
+				30F2DB22204983ED0079AF40 /* DirectionsToIndianCitiesUITests */,
+				30F2DB01204983ED0079AF40 /* Products */,
+				E71C1FAB0628302603D8FEA7 /* Pods */,
+				73F6AB2D82ADE708C83E1F60 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30F2DB01204983ED0079AF40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30F2DB00204983ED0079AF40 /* DirectionsToIndianCities.app */,
+				30F2DB14204983ED0079AF40 /* DirectionsToIndianCitiesTests.xctest */,
+				30F2DB1F204983ED0079AF40 /* DirectionsToIndianCitiesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30F2DB02204983ED0079AF40 /* DirectionsToIndianCities */ = {
+			isa = PBXGroup;
+			children = (
+				30F2DB46204BF93F0079AF40 /* Constants */,
+				30F2DB43204BF5760079AF40 /* Helper */,
+				30F2DB38204B13250079AF40 /* Model */,
+				30F2DB33204AF3120079AF40 /* Controllers */,
+				30F2DB03204983ED0079AF40 /* AppDelegate.swift */,
+				30F2DB07204983ED0079AF40 /* Main.storyboard */,
+				30F2DB0A204983ED0079AF40 /* Assets.xcassets */,
+				30F2DB0C204983ED0079AF40 /* LaunchScreen.storyboard */,
+				30F2DB0F204983ED0079AF40 /* Info.plist */,
+				30F2DB31204986340079AF40 /* GoogleService-Info.plist */,
+			);
+			path = DirectionsToIndianCities;
+			sourceTree = "<group>";
+		};
+		30F2DB17204983ED0079AF40 /* DirectionsToIndianCitiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				30F2DB18204983ED0079AF40 /* DirectionsToIndianCitiesTests.swift */,
+				30F2DB1A204983ED0079AF40 /* Info.plist */,
+			);
+			path = DirectionsToIndianCitiesTests;
+			sourceTree = "<group>";
+		};
+		30F2DB22204983ED0079AF40 /* DirectionsToIndianCitiesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30F2DB23204983ED0079AF40 /* DirectionsToIndianCitiesUITests.swift */,
+				30F2DB25204983ED0079AF40 /* Info.plist */,
+			);
+			path = DirectionsToIndianCitiesUITests;
+			sourceTree = "<group>";
+		};
+		30F2DB33204AF3120079AF40 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				30F2DB34204AF3390079AF40 /* LoginViewController.swift */,
+				30F2DB36204AFD710079AF40 /* RegisterViewController.swift */,
+				30F2DB3B204B3BFA0079AF40 /* CitiesViewController.swift */,
+				30F2DB3F204BB7A10079AF40 /* CityDetailsViewController.swift */,
+				30F2DB41204BF0190079AF40 /* DirectionsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		30F2DB38204B13250079AF40 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30F2DB39204B13490079AF40 /* User.swift */,
+				30F2DB3D204B3FEB0079AF40 /* Place.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		30F2DB43204BF5760079AF40 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				30F2DB44204BF59B0079AF40 /* HelperClass.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		30F2DB46204BF93F0079AF40 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				30F2DB47204BF9680079AF40 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		73F6AB2D82ADE708C83E1F60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30F2DB49204C00690079AF40 /* CoreLocation.framework */,
+				FA25C5893E6C58E6AF4DEE56 /* Pods_DirectionsToIndianCities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E71C1FAB0628302603D8FEA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC953D14BC120C2B29A96069 /* Pods-DirectionsToIndianCities.debug.xcconfig */,
+				40C2AC7F2EC153B389E587CC /* Pods-DirectionsToIndianCities.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30F2DAFF204983ED0079AF40 /* DirectionsToIndianCities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F2DB28204983ED0079AF40 /* Build configuration list for PBXNativeTarget "DirectionsToIndianCities" */;
+			buildPhases = (
+				BEBD8E3078A8D017E1B4B705 /* [CP] Check Pods Manifest.lock */,
+				30F2DAFC204983ED0079AF40 /* Sources */,
+				30F2DAFD204983ED0079AF40 /* Frameworks */,
+				30F2DAFE204983ED0079AF40 /* Resources */,
+				8EB551197C35481FC195EED6 /* [CP] Embed Pods Frameworks */,
+				9886D2534C469D2099D03695 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DirectionsToIndianCities;
+			productName = DirectionsToIndianCities;
+			productReference = 30F2DB00204983ED0079AF40 /* DirectionsToIndianCities.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30F2DB13204983ED0079AF40 /* DirectionsToIndianCitiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F2DB2B204983ED0079AF40 /* Build configuration list for PBXNativeTarget "DirectionsToIndianCitiesTests" */;
+			buildPhases = (
+				30F2DB10204983ED0079AF40 /* Sources */,
+				30F2DB11204983ED0079AF40 /* Frameworks */,
+				30F2DB12204983ED0079AF40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30F2DB16204983ED0079AF40 /* PBXTargetDependency */,
+			);
+			name = DirectionsToIndianCitiesTests;
+			productName = DirectionsToIndianCitiesTests;
+			productReference = 30F2DB14204983ED0079AF40 /* DirectionsToIndianCitiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30F2DB1E204983ED0079AF40 /* DirectionsToIndianCitiesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F2DB2E204983ED0079AF40 /* Build configuration list for PBXNativeTarget "DirectionsToIndianCitiesUITests" */;
+			buildPhases = (
+				30F2DB1B204983ED0079AF40 /* Sources */,
+				30F2DB1C204983ED0079AF40 /* Frameworks */,
+				30F2DB1D204983ED0079AF40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30F2DB21204983ED0079AF40 /* PBXTargetDependency */,
+			);
+			name = DirectionsToIndianCitiesUITests;
+			productName = DirectionsToIndianCitiesUITests;
+			productReference = 30F2DB1F204983ED0079AF40 /* DirectionsToIndianCitiesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30F2DAF8204983ED0079AF40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "rakshith appaiah";
+				TargetAttributes = {
+					30F2DAFF204983ED0079AF40 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					30F2DB13204983ED0079AF40 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30F2DAFF204983ED0079AF40;
+					};
+					30F2DB1E204983ED0079AF40 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30F2DAFF204983ED0079AF40;
+					};
+				};
+			};
+			buildConfigurationList = 30F2DAFB204983ED0079AF40 /* Build configuration list for PBXProject "DirectionsToIndianCities" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30F2DAF7204983ED0079AF40;
+			productRefGroup = 30F2DB01204983ED0079AF40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30F2DAFF204983ED0079AF40 /* DirectionsToIndianCities */,
+				30F2DB13204983ED0079AF40 /* DirectionsToIndianCitiesTests */,
+				30F2DB1E204983ED0079AF40 /* DirectionsToIndianCitiesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30F2DAFE204983ED0079AF40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F2DB0E204983ED0079AF40 /* LaunchScreen.storyboard in Resources */,
+				30F2DB32204986350079AF40 /* GoogleService-Info.plist in Resources */,
+				30F2DB0B204983ED0079AF40 /* Assets.xcassets in Resources */,
+				30F2DB09204983ED0079AF40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F2DB12204983ED0079AF40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F2DB1D204983ED0079AF40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EB551197C35481FC195EED6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DirectionsToIndianCities/Pods-DirectionsToIndianCities-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DirectionsToIndianCities/Pods-DirectionsToIndianCities-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9886D2534C469D2099D03695 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DirectionsToIndianCities/Pods-DirectionsToIndianCities-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DirectionsToIndianCities/Pods-DirectionsToIndianCities-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEBD8E3078A8D017E1B4B705 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DirectionsToIndianCities-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30F2DAFC204983ED0079AF40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F2DB40204BB7A10079AF40 /* CityDetailsViewController.swift in Sources */,
+				30F2DB48204BF9680079AF40 /* Constants.swift in Sources */,
+				30F2DB35204AF3390079AF40 /* LoginViewController.swift in Sources */,
+				30F2DB04204983ED0079AF40 /* AppDelegate.swift in Sources */,
+				30F2DB3E204B3FEB0079AF40 /* Place.swift in Sources */,
+				30F2DB3C204B3BFA0079AF40 /* CitiesViewController.swift in Sources */,
+				30F2DB45204BF59B0079AF40 /* HelperClass.swift in Sources */,
+				30F2DB3A204B13490079AF40 /* User.swift in Sources */,
+				30F2DB42204BF0190079AF40 /* DirectionsViewController.swift in Sources */,
+				30F2DB37204AFD710079AF40 /* RegisterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F2DB10204983ED0079AF40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F2DB19204983ED0079AF40 /* DirectionsToIndianCitiesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F2DB1B204983ED0079AF40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F2DB24204983ED0079AF40 /* DirectionsToIndianCitiesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30F2DB16204983ED0079AF40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30F2DAFF204983ED0079AF40 /* DirectionsToIndianCities */;
+			targetProxy = 30F2DB15204983ED0079AF40 /* PBXContainerItemProxy */;
+		};
+		30F2DB21204983ED0079AF40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30F2DAFF204983ED0079AF40 /* DirectionsToIndianCities */;
+			targetProxy = 30F2DB20204983ED0079AF40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30F2DB07204983ED0079AF40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F2DB08204983ED0079AF40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30F2DB0C204983ED0079AF40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F2DB0D204983ED0079AF40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30F2DB26204983ED0079AF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30F2DB27204983ED0079AF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30F2DB29204983ED0079AF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC953D14BC120C2B29A96069 /* Pods-DirectionsToIndianCities.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K83KRE3YCS;
+				INFOPLIST_FILE = DirectionsToIndianCities/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ConttextApplication.DirectionsToIndianCities;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30F2DB2A204983ED0079AF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40C2AC7F2EC153B389E587CC /* Pods-DirectionsToIndianCities.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K83KRE3YCS;
+				INFOPLIST_FILE = DirectionsToIndianCities/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ConttextApplication.DirectionsToIndianCities;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30F2DB2C204983ED0079AF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DirectionsToIndianCitiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ConttextApplication.DirectionsToIndianCitiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DirectionsToIndianCities.app/DirectionsToIndianCities";
+			};
+			name = Debug;
+		};
+		30F2DB2D204983ED0079AF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DirectionsToIndianCitiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ConttextApplication.DirectionsToIndianCitiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DirectionsToIndianCities.app/DirectionsToIndianCities";
+			};
+			name = Release;
+		};
+		30F2DB2F204983ED0079AF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DirectionsToIndianCitiesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ConttextApplication.DirectionsToIndianCitiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DirectionsToIndianCities;
+			};
+			name = Debug;
+		};
+		30F2DB30204983ED0079AF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DirectionsToIndianCitiesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ConttextApplication.DirectionsToIndianCitiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DirectionsToIndianCities;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30F2DAFB204983ED0079AF40 /* Build configuration list for PBXProject "DirectionsToIndianCities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F2DB26204983ED0079AF40 /* Debug */,
+				30F2DB27204983ED0079AF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30F2DB28204983ED0079AF40 /* Build configuration list for PBXNativeTarget "DirectionsToIndianCities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F2DB29204983ED0079AF40 /* Debug */,
+				30F2DB2A204983ED0079AF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30F2DB2B204983ED0079AF40 /* Build configuration list for PBXNativeTarget "DirectionsToIndianCitiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F2DB2C204983ED0079AF40 /* Debug */,
+				30F2DB2D204983ED0079AF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30F2DB2E204983ED0079AF40 /* Build configuration list for PBXNativeTarget "DirectionsToIndianCitiesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F2DB2F204983ED0079AF40 /* Debug */,
+				30F2DB30204983ED0079AF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30F2DAF8204983ED0079AF40 /* Project object */;
+}
